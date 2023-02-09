@@ -16,6 +16,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Positive;
 import java.util.List;
 
+@CrossOrigin //CORS 정책을 설정하기 위해 @CrossOrigin 애너테이션 추가됨
 @RestController
 @RequestMapping("/v1/todos")
 @Validated

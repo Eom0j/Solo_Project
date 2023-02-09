@@ -20,3 +20,4 @@ public class Todo {
 
     private boolean completed;
 }
+//boolean의 래퍼클래스인 Boolean으로 적용 시키면 Service 의 update 매서드에서 getCompleted로 적용시킬수 있다.
